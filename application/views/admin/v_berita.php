@@ -35,10 +35,10 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="<?php echo base_url('index.php/welcome/profil')?>">Profile</a>
-            <span class="sr-only">(current)</span>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="<?php echo base_url('index.php/welcome/berita')?>">News</a>
+            <span class="sr-only">(current)</span>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="<?php echo base_url('index.php/welcome/kontak')?>">Contact Us</a>
@@ -121,10 +121,16 @@
 
 </article>
 
+  <section class="py-5 bg-image-full" style="">
+    <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
+    <div style="height: 200px;"></div>
+
+  </section>
+
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      <p class="m-0 text-center text-white">Copyright &copy; 2019 SDN Penjaringansari II</p>
     </div>
     <!-- /.container -->
   </footer>

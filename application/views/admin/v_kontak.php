@@ -35,13 +35,13 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="<?php echo base_url('index.php/welcome/profil')?>">Profile</a>
-            <span class="sr-only">(current)</span>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="<?php echo base_url('index.php/welcome/berita')?>">News</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="<?php echo base_url('index.php/welcome/kontak')?>">Contact Us</a>
+            <span class="sr-only">(current)</span>
           </li>
         </ul>
       </div>
@@ -49,21 +49,23 @@
   </nav>
   </section>
 
-  <section class="py-1">
+  <section class="py-5">
     <div class="container">
-      <p><h4 style="text-align:left">ALAMAT SEKOLAH :</h1></p>
-      <p style="height: 100px;" class="lead">JL PANDUGO BARU V WPS Kec. Rungkut Desa/kel. Penjaringansari Surabaya 60297</p>
-      <p><h4 style="text-align:left">EMAIL :</h1></p>
-      <p style="height: 100px;" class="lead">penjaringansari2@yahoo.co.id</p>
-      <p><h4 style="text-align:left">PHONE :</h1></p>
-      <p style="height: 100px;" class="lead">8712119 , Fax</p>
+      <h1 style="text-align:center">ALAMAT SEKOLAH</h1>
+      <img class="img-fluid d-block mx-auto" src="<?php echo base_url();?>assets/address.png" >
+      <p style="height: 100px;text-align:center" class="lead">JL PANDUGO BARU V WPS Kec. Rungkut Desa/kel. Penjaringansari Surabaya 60297</p>
+      <p><h1 style="text-align:center">EMAIL</h1></p>
+      <img class="img-fluid d-block mx-auto" src="<?php echo base_url();?>assets/email.png" >
+      <p style="height: 100px;text-align:center" class="lead">penjaringansari2@yahoo.co.id</p>
+      <p><h1 style="text-align:center">PHONE</h1></p>
+      <img class="img-fluid d-block mx-auto" src="<?php echo base_url();?>assets/phone.png" >
+      <p style="height: 100px;text-align:center" class="lead">Fax - 8712119</p>
     </div>
   </section>
-
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      <p class="m-0 text-center text-white">Copyright &copy; 2019 SDN Penjaringansari II</p>
     </div>
     <!-- /.container -->
   </footer>

@@ -30,7 +30,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home
+            <a class="nav-link" href="<?php echo base_url('index.php/welcome/index')?>">Home
             <span class="sr-only">(current)</span>
             </a>
           </li>
@@ -114,7 +114,7 @@
 
   <section class="py-5">
     <div class="container">
-      <h1>KEGIATAN</h1>
+      <h1 style="text-align:center">KEGIATAN</h1>
       <p></p>
       <table>
         <tr>
@@ -131,7 +131,7 @@
         </tr>
             <tr>
             <td><img class="img-fluid d-block mx-auto" src="<?php echo base_url();?>assets/tik1.jpg" width="500px"></td>
-            <td><img class="img-fluid d-block mx-auto" src="<?php echo base_url();?>assets/1.jpg" width="500px"></td>
+            <td><img class="img-fluid d-block mx-auto" src="<?php echo base_url();?>assets/KBM.jpg" width="500px"></td>
         </tr>
     </table>
     </div>
@@ -147,7 +147,7 @@
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      <p class="m-0 text-center text-white">Copyright &copy; 2019 SDN Penjaringansari II</p>
     </div>
     <!-- /.container -->
   </footer>
