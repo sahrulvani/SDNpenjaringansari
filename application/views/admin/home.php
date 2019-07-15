@@ -30,7 +30,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Beranda
+            <a class="nav-link" href="#">Home
             <span class="sr-only">(current)</span>
             </a>
           </li>
@@ -38,10 +38,10 @@
             <a class="nav-link" href="<?php echo base_url('index.php/welcome/profil')?>">Profil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pembelajaran</a>
+            <a class="nav-link" href="<?php echo base_url('index.php/welcome/berita')?>">News</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Kontak</a>
+            <a class="nav-link" href="<?php echo base_url('index.php/welcome/kontak')?>">Contact Us</a>
           </li>
         </ul>
       </div>
@@ -110,7 +110,6 @@
         </tr>
       </table>
     </div>
-    
   </section>
 
   <section class="py-5">
@@ -143,15 +142,6 @@
     <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
     <div style="height: 200px;"></div>
 
-  </section>
-
-  <!-- Content section -->
-  <section class="py-5">
-    <div class="container">
-      <h1>Section Heading</h1>
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
-    </div>
   </section>
 
   <!-- Footer -->

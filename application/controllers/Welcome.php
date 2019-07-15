@@ -27,4 +27,14 @@ class Welcome extends CI_Controller {
 	{
         $this->load->view("admin/v_profil.php");
 	}
+
+	public function berita()
+	{
+        $this->load->view("admin/v_berita.php");
+	}
+
+	public function kontak()
+	{
+        $this->load->view("admin/v_kontak.php");
+	}
 }
